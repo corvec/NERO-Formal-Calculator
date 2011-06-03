@@ -1,0 +1,11 @@
+NERO Formal Magic Calculator
+
+This program is used to estimate costs for NERO Magic items based off of the creation costs of those items.
+
+It will be modified in the future to calculate the costs of scrolls.
+
+It currently calculates based on 8th edition costs; these will be modified in the future to calculate based on 9th edition costs. It will also include spirit effects at that time.
+
+The costs of Expanded Enchantment, Enchant, etc., are calculated based on the level entered in the field to the right.
+The costs of pyramided effects are calculated based on the number of times that effect is entered. So to get a +3 Damage Aura, you have to enter three separate damage aura effects.
+
