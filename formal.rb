@@ -332,8 +332,12 @@ def test
 end
 
 if __FILE__ == $0
-  app = Qt::Application.new ARGV
-	frame = FormalGUI.new
-	frame.show
-	app.exec
+	if not ARGV.include? "--test"
+		app = Qt::Application.new ARGV
+		frame = FormalGUI.new
+		frame.show
+		app.exec
+	else
+		test
+	end
 end
