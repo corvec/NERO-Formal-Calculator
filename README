@@ -1,11 +1,19 @@
 NERO Formal Magic Calculator
+  by Corey T Kump
+
+Usage: ruby formal.rb [--test]
 
 This program is used to estimate costs for NERO Magic items based off of the creation costs of those items.
-
-It will be modified in the future to calculate the costs of scrolls.
-
-It currently calculates based on 8th edition costs; these will be modified in the future to calculate based on 9th edition costs. It will also include spirit effects at that time.
-
 The costs of Expanded Enchantment, Enchant, etc., are calculated based on the level entered in the field to the right.
 The costs of pyramided effects are calculated based on the number of times that effect is entered. So to get a +3 Damage Aura, you have to enter three separate damage aura effects.
 
+Requirements:
+* Ruby (probably 1.8.6 or 1.8.7)
+* Qt4 graphics libraries (These libraries are installed when you install the NERO Character Creator package on Windows)
+* Qt4Ruby libraries. (This library is installed when you install the NERO Character Creator package on Windows)
+
+Planned modificatons:
+* Calculate the costs of scrolls.
+* Use 9th edition costs
+* Include Spirit effects
+* Include standalone effects (and prohibit casting them on items)

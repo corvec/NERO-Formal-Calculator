@@ -1,3 +1,9 @@
+"Arcane Armor (10 On Armor)":
+   Level: 2
+   Components:
+      P: 10
+      C: 5
+      E: 5
 Create Mark:
    Level: 1
    Components:
