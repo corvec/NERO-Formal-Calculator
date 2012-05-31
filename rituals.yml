@@ -1,7 +1,7 @@
-"Arcane Armor (10 On Armor)":
-   Level: 2
+"Arcane Armor (10 Points)":
+   Level: 3
    Components:
-      P: 10
+      P: 15
       C: 5
       E: 5
 Create Mark:
@@ -79,7 +79,7 @@ Spell Store:
 Channel Spell:
    Level: 5
    Components:
-      P: 5
+      V: 7.5
       C: 2
       E: 2
       S: 2
@@ -115,7 +115,7 @@ Bane:
 Expanded Enchantment:
    Level: 6
    Components:
-      P: 6
+      V: 9
       C: 3
       E: 3
       P: Level
